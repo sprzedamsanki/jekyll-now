@@ -4,6 +4,7 @@ title: IMF
 ---
 So let's get started with my first CTF virtual machine writeup. I downloaded the virtual machine file from [Vulnhub](https://www.vulnhub.com/entry/imf-1,162/) The description doesn't give much away:
 >Welcome to "IMF", my first Boot2Root virtual machine. IMF is a intelligence agency that you must hack to get all flags and ultimately root. The flags start off easy and get harder as you progress. Each flag contains a hint to the next flag. I hope you enjoy this VM and learn something. 
+
 First flag in comments of contact.php
 flag1{YWxsdGhlZmlsZXM=}
 Flag1 decodes to allthefiles, which points to base64 encoded file names. The trick is to merge the names.
